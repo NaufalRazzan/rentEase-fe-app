@@ -1,0 +1,225 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+ul li input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.container-booking {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.notice {
+    background-color: #e0ffe0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.car-details {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.car-details img {
+    width: 50%;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.car-details .details {
+    flex: 1;
+}
+
+.car-details .tags {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.car-details .tag {
+    background-color: #2E3192;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.car-details h2 {
+    margin: 10px 0;
+    color: #2E3192;
+}
+
+.car-details .features {
+    margin-bottom: 10px;
+}
+
+.car-details .features p {
+    margin: 5px 0;
+}
+
+.car-details button {
+    background-color: #2E3192;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.car-details button:hover {
+    background-color: #1b1f5a;
+}
+
+.reviews-pickup {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+    .pickup {
+    margin: 20px 0;
+}
+
+.pickup p {
+    margin: 5px 0;
+}
+
+.payment-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.payment-overview {
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.payment-overview h2 {
+    color: #2E3192;
+}
+
+.payment-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.payment-item span {
+    font-size: 1.1em;
+}
+
+.payment-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.payment-summary .notice {
+    width: 120%;
+    background-color: #e0ffe0;
+    padding: 20px;
+    border-radius: 10px;
+}
+.continue-payment {
+    width: 37%;
+    text-align: right;
+}
+
+.continue-payment button {
+    background-color: #2E3192;
+    color: white;
+    border: none;
+    padding:30px 60px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.continue-payment button:hover {
+    background-color: #1b1f5a;
+}
+
+.continue-button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.continue-button-container button {
+    background-color: #2E3192;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.continue-button-container button:hover {
+    background-color: #1b1f5a;
+}
+    .header-booking {
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.header-booking h1 {
+    margin: 0;
+    color: #2E3192;
+}
+
+.header-booking p {
+    margin: 5px 0;
+}
+
+.header-booking .note {
+    color: #777;
+}
+
+    .back-link {
+    display: block;
+    margin-bottom: 10px;
+    color: #2E3192;
+    text-decoration: none;
+}
+.box-booking {
+    width: 48%;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.box-booking h2 {
+    color: #2E3192;
+    display: flex;
+    align-items: center;
+}

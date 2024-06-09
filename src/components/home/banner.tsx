@@ -1,9 +1,12 @@
+import { Link } from 'react-router-dom'
 import '../../styles/style.css'
 
 export const Banner = () => {
     return (
         <section className="banner">
-            <h2>SELAMAT DATANG DI RENTEASE</h2>
+            <Link to="/about">
+                <h2>SELAMAT DATANG DI RENTEASE</h2>
+            </Link>
         </section>
     )
 }

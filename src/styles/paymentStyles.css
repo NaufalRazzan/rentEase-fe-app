@@ -1,0 +1,189 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container-bayar {
+    width: 70%;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.header-bayar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-menu {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.checkout-status {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.schedule-warning {
+    color: red;
+}
+
+.refund-policy {
+    background: #e7f8e9;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+.refund-policy img {
+    margin-right: 10px;
+}
+
+.car-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.car-details img {
+   
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.car-info {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.car-info .tag {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features li {
+    margin-bottom: 5px;
+}
+
+.checkout-form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.driver-details, .payment-method, .payment-overview {
+    width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.payment-overview {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+  input[type="text"], input[type="radio"] {
+    width: calc(100% - 16px); 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"], input[type="radio"] {
+    width: calc(100% - 16px); 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.business-booking {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.business-booking .radio-group {
+    display: flex;
+    align-items: center;
+}
+
+.business-booking .radio-group label {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+
+.book-now {
+    display: block;
+    width: 100%;
+    background: #150578;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.book-now:hover {
+    transform: scale(0.9);
+}
+.discount-info {
+    background: #e0ffe0; /* Light green background for discount info */
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.car-details h1 {
+    color: #2E3192;
+    font-weight: bold;
+}
+.driver-details h1{
+    color: #2E3192;
+}
+.payment-method h2 {
+    color: #2E3192;
+}
